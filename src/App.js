@@ -1,19 +1,18 @@
+import React from "react";
 import './App.css';
 import Weather from './Weather';
+import axios from "axios";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Weather />
-      </header>
-      
-<footer>
-      This project was coded by Rhian Jenkins & is open-sourced on <a href="https://github.com/Rhitree/weather-app-react">GitHub</a> hosted on <a href="https://enchanting-daffodil-161e3c.netlify.app/">Netlify</a>
-    </footer>
-
+      <div className="container">
+        <h1>Weather App</h1>
+          <Weather />
+          <footer>
+          This project was coded by Rhian Jenkins & is open-sourced on <a href="https://github.com/Rhitree/weather-app-react" target="_blank">GitHub</a> hosted on <a href="https://enchanting-daffodil-161e3c.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Weather.css"
 
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
@@ -90,7 +91,3 @@ export default function WeatherSearch() {
     </div>
   );
 }
-
-<footer>
-      This project was coded by Rhian Jenkins & is open-sourced on <a href="https://github.com/Rhitree/weather-app-react">GitHub</a> hosted on <a href="https://enchanting-daffodil-161e3c.netlify.app/">Netlify</a>
-    </footer>
