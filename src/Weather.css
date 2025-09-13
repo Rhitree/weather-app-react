@@ -3,7 +3,6 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
 }
 
 .Weather h1 {
@@ -40,7 +39,6 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
   position: relative;
